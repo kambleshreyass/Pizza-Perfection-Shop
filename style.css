@@ -225,6 +225,9 @@ span{
   }
 }
 @media (max-width:600px){
+  #cursor{
+    display: none;
+  }
   #navBar{
     height: 120px;
     width: 100%;
