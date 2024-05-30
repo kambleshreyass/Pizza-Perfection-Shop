@@ -1,0 +1,305 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: futura;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: black;
+  overflow-x: hidden;
+}
+#cursor{
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  position: fixed;
+  border-radius: 50%;
+  z-index: 99999;
+}
+#AllContainer{
+  height: 100%;
+  width: 100%;
+}
+#navBar{
+  height: 120px;
+  width: 100%;
+  background-color: rgb(37, 10, 10);
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+#navBar img{
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-top: 10px;
+  position: absolute;
+}
+.ri-menu-line{
+  font-size: 40px;
+  color: white;
+  padding: 20px;
+  display: none;
+}
+#list{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+}
+#list h2{
+  font-size: 20px;
+}
+#menu-icon h2{
+  display: block;
+  display: flex;
+  cursor: pointer;
+}
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+hr{
+  display: none;
+}
+.pizzaName{
+  display: block;
+  padding-top: 15px;
+}
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 70px;
+}
+#list .navName{
+  font-size: 27px;
+}
+#pageOne{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+#pageOne video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#blank{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: none;
+}
+.emptyPage{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.644);
+  position: absolute;
+}
+.emptyPage h1{
+  font-size: 9vw;
+  text-align: center;
+  padding-top: 90px;
+}
+.emptyPage h2{
+  font-size: 2vw;
+  text-align: center;
+}
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+#pageTwo{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+#pageTwo h1{
+  font-size: 50px;
+  padding-top: 50px;
+  text-align: center;
+  color: rgb(255, 57, 57);
+}
+#softContaint{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+  gap: 30px;
+}
+.faculty{
+  font-size: 2vw;
+}
+.ri-shopping-bag-4-line{
+  font-size: 5vw;
+  text-align: center;
+}
+.ri-red-packet-line{
+  font-size: 1.9vw;
+}
+.ri-truck-line{
+  font-size: 3.5vw;
+}
+#videoTwoContainer{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.blank{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.527);
+  position: absolute;
+}
+#card{
+  height: 330px;
+  width: 250px;
+}
+#first-cards-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin-top: 40px;
+}
+.blank h2{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 40px;
+}
+span{
+  font-size: 40px;
+  color: rgb(233, 29, 29);
+}
+ #card img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+#pageThree{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+#marketing{
+  height: 100%;
+  width: 100%;
+}
+.blankThree{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+}
+.blankThree{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.493);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+@media (max-width:1490px){
+  .pizzaName{
+    display: block;
+    font-size: 3vw;
+    padding-left: 130px;
+    padding-top: 30px;
+  }
+}
+@media (max-width:600px){
+  #navBar{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+  }
+    #menu-icon{
+    display: flex;
+    align-items:center;
+  }
+  #menu-icon h2{
+    display: none;
+  }
+  .ri-menu-line{
+    display: block;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: rgb(145, 46, 46);
+    margin: 18px;
+  }
+  #blank{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: none;
+  }
+  #blank h2{
+    text-align: center;
+    padding: 25px;
+  }
+  hr{
+    display: block;
+  }
+  .copy{
+    font-size: 15px;
+  }
+  .ri-close-line{
+    position: absolute;
+    right: 11%;
+    font-size: 30px;
+  }
+  .pizzaName{
+    display: none;
+  }
+  .emptyPage h1{
+    font-size: 12vw;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .emptyPage h2{
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 20px;
+  }
+  #pageOne{
+    height:90%;
+  }
+  #pageTwo h1{
+    font-size: 40px;
+  }
+  .ri-truck-line h2{
+    font-size: 8vw;
+  }
+  .ri-bank-card-fill h2{
+    font-size: 8vw;
+  }
+  #videoTwoContainer{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: black;
+  }
+  .blank{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+  }
+
+}
+
