@@ -16,7 +16,7 @@ body{
 #cursor{
   height: 70px;
   width: 70px;
-  background-color: white;
+  border: 5px solid rgb(255, 242, 59);
   position: fixed;
   border-radius: 50%;
   z-index: 99999;
